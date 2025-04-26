@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfume Gallery</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #b76e79;
+      margin-bottom: 40px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Perfume Project Gallery</h1>
+
+  <div class="gallery">
+    <img src="images/e.jpg" alt="Perfume Bottle 1">
+    <img src="images/f.webp" alt="Perfume Bottle 2">
+    <img src="images/g.webp" alt="Perfume Bottle 3">
+    <img src="images/h.jpg" alt="Perfume Bottle 4">
+    <img src="images/i.webp" alt="Perfume Bottle 5">
+    <img src="images/j.jpeg" alt="Perfume Bottle 6">
+    <img src="images/k.webp" alt="Perfume Bottle 7">
+    <img src="images/l.jpg" alt="Perfume Bottle 8">
+    <!-- Add more images as you want -->
+  </div>
+
+</body>
+</html>
